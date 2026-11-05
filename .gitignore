@@ -1,0 +1,17 @@
+# 系统与临时文件
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*
+
+# 模型权重与缓存（体积大，不入库）
+*.pt
+*.safetensors
+*.bin
+huggingface_cache/
+cached_memories*/
+
+# 数据与日志大文件
+*.pkl
+*.log
